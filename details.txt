@@ -1,0 +1,28 @@
+small group minimum 3 max 10
+team-physicaltraining
+ TOut le texte en plus gros
+mentions légales : voir si on peut mettre deux numéro de siret
+
+
+à venir : vidéo
+
+slider : 1) 
+	 2)
+	3) 
+
+qui sommes nous
+
+dans nos services :
+description et prix en gros et les prix plus gros que le reste et en gras
+
+mettre texte en noir
+rajouter devant chaque tittre coaching exemple: coaching small group
+small group: image avec boule 
+
+
+programme diététique personnalisé 67€ les 6 semaines
+
+37 € coaching visio créér un rectangle avec une image , programme diététique personnalisé 67€ les 6 semaines
+
+rajouter les logos dans le footer
+

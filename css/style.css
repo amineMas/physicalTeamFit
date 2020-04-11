@@ -1,0 +1,140 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar {
+    height: 90px;
+}
+
+#navbarResponsive ul li {
+    font-size: 1.2rem;
+}
+
+#about-us
+{
+    background-color: #151515;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#navbarResponsive {
+    z-index: 100;
+    margin-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.border-b {
+    border-bottom: 2px solid white;
+}
+
+#navbarResponsive .nav-link:hover {
+    font-weight: bold;
+}
+
+ .carousel-item img {
+    max-height: 500px;
+}
+
+#services {
+    background-image: url(../img/hero-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#services h1 {
+    color: white;
+}
+
+.error {
+    color: #FF0000;
+}
+
+#services .list-group-item {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+}
+
+.card .card-body .card-text {
+    font-size: 1.1rem;
+    color: black
+}
+
+.card img {
+    border-radius: 0;
+}
+
+#en-entreprise {
+    background-color: #151515;
+    color: white;
+}
+
+#en-entreprise p {
+    font-size: 1.1rem;
+}
+
+#en-entreprise .bg-image {
+    background-image: url(../img/offer.png);
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+#en-entreprise .bg-image button.btn-success {
+   font-size: 1.1rem;
+}
+
+#association {
+    background-color: #151515;
+    color: white;
+}
+
+#association p {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social li {
+    padding-bottom: 20px;
+}
+
+footer .social i {
+    font-size: 2rem;
+}
+
+#scrollToTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(77, 75, 75);
+    right: 10px;
+    bottom: 10px;
+    border-radius: 30%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#scrollToTop:hover {
+    background-color: rgb(56, 55, 55);
+}
