@@ -138,3 +138,20 @@ footer .social i {
 #scrollToTop:hover {
     background-color: rgb(56, 55, 55);
 }
+
+
+
+
+/*------------------------------------------ MEDIA QUERIES --------------------------------------------*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+    #navbarResponsive ul li {
+        font-size: 1rem;
+    }
+
+    .carousel-item img {
+        max-height: 450px;
+    }
+}
