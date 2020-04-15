@@ -35,7 +35,7 @@
             $message = wordwrap($message, 70, PHP_EOL);
         }
 
-        $to_email = "aminemastouri@gmail.com, lass.coaching@gmail.com, kurtisovitch@hotmail.com";
+        $to_email = "aminemastouri@gmail.com, physicalteamfit@gmail.com";
         $headers = array(
             'From' => $email,
             'Reply-To' => $email,
