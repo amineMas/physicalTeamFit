@@ -7,7 +7,7 @@ body {
 }
 
 nav.navbar {
-    height: 100px;
+    height: 140px;
 }
 
 #navbarResponsive ul li {
@@ -60,16 +60,22 @@ nav.navbar {
     padding: 0.75rem;
     font-size: 1.1rem;
     font-weight: 700;
-    color: black;
+    color: white;
+    background-color: #151515;
 }
 
 .title-coaching {
     font-family: 'Satisfy', cursive;
 }
 
+#services .card {
+    background-color: #151515;
+    color: white;
+}
+
 .card .card-body .card-text {
     font-size: 1.1rem;
-    color: black
+    color: white
 }
 
 .card img {
@@ -157,7 +163,23 @@ footer .social i {
         font-size: 1rem;
     }
 
+    .navbar-brand img {
+        height: 100px;
+        width: 280px;
+    }
+
     .carousel-item img {
         max-height: 450px;
     }
+
+
 }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Small devices (landscape phones, less than 768px)  */
+@media (max-width: 767.98px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
