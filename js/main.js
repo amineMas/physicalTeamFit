@@ -35,7 +35,6 @@ window.onload = function(){
         }
     });
 
-    // validate form
     
 
 }
