@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Accueil</title>
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand ml-lg-2 ml-xl-4 p-0" href="index.html">
+                <img src="img/logo.png" alt="logo-site" width="300" height="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-times d-none"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">Notre équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Nos services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#en-entreprise">Formule Entreprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#association">Association</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <!-- Portfolio Item Heading -->
+        <h1 class="my-5">Coaching Visio</h1>
+        
+        <!-- Portfolio Item Row -->
+        <div class="row pb-5">
+          <div class="col-lg-8">
+              <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+          </div>
+        
+          <div class="col-lg-4">
+            <h3 class="my-3">Description</h3>
+            <p>Ce programme est fait pour les personnes qui n'ont pas assez de temps pour aller en salle de sport ou qui sont gênés par le regard des autres.Vous bénéficiez des mêmes avantages qu'un coach à domicile.En effet le coach vous motivera en direct et il vous corrigera sur les postures des exercices.</p>
+            <h3 class="my-3">Prix</h3>
+            <ul>
+                <li>1 personne - 37 €/séance</li>
+                <li>2 personnes - 54 €/séance</li>
+            </ul>
+          </div>
+
+          <div class="col mt-2">
+            <h3>Equipement nécessaire</h3>
+              <ul>
+                <li>Libérer un espace suffisant pour avoir la place de faire les exercices dans la pièce</li>
+                <li>Ordinateur doté d'une webcam et d'un micro</li>
+                <li>Connexion internet (wifi ou 4G)</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="mb-5">Ce programme vous intéresse ? Contactez-nous via ce formulaire</h2>
+        <form method="POST" action="mail.php" class="pb-5">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Votre nom <span class="required">*</span></label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+              <div class="form-group col-md-6">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="age">Votre âge</label>
+                <input type="text" class="form-control" id="age">
+              </div>
+              <div class="form-group col-md-6 text-center">
+                <legend class="col-form-label ">Sexe</legend>
+                <div class="form-check form-check-inline col-md-3">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Homme
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline col-md-3">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Femme
+                    </label>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="subject">Sujet</label>
+                <input type="text" class="form-control" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message <span class="required">*</span></label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+            <button type="submit" class="btn btn-danger">Envoyer votre message</button>
+        </form>
+    </div>
+
+        <!-- Footer -->
+    <footer class="page-footer font-small pt-4 ">
+
+        <!-- Footer Links -->
+        <div class="container">
+          
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+    
+                
+    
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!">Notre équipe</a>
+                </h6>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!">Nos services</a>
+                </h6>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!">Formule Entreprise</a>
+                </h6>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!">Association</a>
+                </h6>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!">Contact</a>
+                </h6>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+            </div>
+          <hr class="rgba-white-light" style="margin: 0 15%;">
+              
+        </div>
+            <!-- Footer Links -->
+            
+    
+            <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+    
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+    
+    
+    
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item px-4 mr-lg-5">
+                <img src="img/unnamed.png" alt="" width="120" height="100">
+              </li>
+              <li class="list-inline-item px-4 mr-lg-5">
+                <img src="img/logo_lass coaching_FINAL.png" alt="" width="120" height="100">
+              </li>
+              <li class="list-inline-item px-4 mr-lg-5">
+                <img src="img/logo-curtis.png" alt="" width="120" height="100">
+              </li>
+              <li class="list-inline-item px-4 mr-lg-5">
+                <img src="img/handi-logo.png" alt="" width="120" height="100">
+              </li>
+            </ul>
+            <!-- Social buttons -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 mt-5">© 2019 Copyright Team Fit</div>
+            <!-- Copyright -->
+          
+        </footer>
+          <!-- Footer -->
+        
+        <button id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
+    
+    <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Your custom scripts (optional) -->
+        <script src="js/main.js"></script>
+        
+    </body>
+    </html>

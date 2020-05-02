@@ -11,14 +11,14 @@ window.onload = function(){
         })
     });
 
-    $("a.nav-link").hover(function() {
-        $(this).toggleClass("border-b");
-    });
+    // $("a.nav-link").hover(function() {
+    //     $(this).toggleClass("border-b");
+    // });
 
 
 
     $('#navbarResponsive').on('show.bs.collapse', function () { // trigger click on burger
-        $(this).css('backgroundColor', "gray"); // make background gray
+        $(this).css('backgroundColor', "#212529"); // make background gray
         $('.navbar-toggler-icon').addClass('d-none'); // I hide burger icon on click
         $('.fa-times').removeClass('d-none'); // I show the cross
     });

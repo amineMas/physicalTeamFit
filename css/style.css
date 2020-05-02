@@ -8,15 +8,20 @@ body {
 
 nav.navbar {
     height: 140px;
+    background-color: #343a40;
 }
 
 #navbarResponsive ul li {
     font-size: 1.2rem;
 }
 
+.required {
+    color: red;
+}
+
 #about-us
 {
-    background-color: #151515;
+    background-color: #212529;
     color: white;
 }
 
@@ -36,7 +41,7 @@ nav.navbar {
 }
 
  .carousel-item img {
-    max-height: 500px;
+    max-height: 380px;
 }
 
 .title-section {
@@ -60,7 +65,7 @@ nav.navbar {
     font-size: 1.05rem;
     font-weight: 700;
     color: white;
-    background-color: #151515;
+    background-color: #212529;
 }
 
 .title-coaching {
@@ -68,7 +73,7 @@ nav.navbar {
 }
 
 #services .card {
-    background-color: #151515;
+    background-color: #212529;
     color: white;
 }
 
@@ -81,7 +86,7 @@ nav.navbar {
 }
 
 #en-entreprise {
-    background-color: #151515;
+    background-color: #212529;
     color: white;
 }
 
@@ -101,7 +106,7 @@ nav.navbar {
 }
 
 #association {
-    background-color: #151515;
+    background-color: #212529;
     color: white;
 }
 

@@ -43,7 +43,7 @@
         );
         //envoi du mail après verification et traitement des données
         if (mail($to_email, $subject, $message, $headers)){
-            echo "<p>Thank you for contacting us, $email. You will get a reply within 24 hours.</p>";
+            echo "<p>Merci de nous avoir contacté, $name. Nous vous répondrons au plus vite.</p>";
         } else {
             $errorMessage = error_get_last()['message'];
         }
