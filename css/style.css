@@ -21,7 +21,7 @@ nav.navbar {
 
 #about-us
 {
-    background-color: #212529;
+    background-color: #4c4d4c;
     color: white;
 }
 
@@ -45,7 +45,7 @@ nav.navbar {
 }
 
 .title-section {
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-size: 2rem;
 }
@@ -65,15 +65,15 @@ nav.navbar {
     font-size: 1.05rem;
     font-weight: 700;
     color: white;
-    background-color: #212529;
+    background-color: #4c4d4c;
 }
 
 .title-coaching {
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #services .card {
-    background-color: #212529;
+    background-color: #4c4d4c;
     color: white;
 }
 
@@ -86,7 +86,7 @@ nav.navbar {
 }
 
 #en-entreprise {
-    background-color: #212529;
+    background-color: #4c4d4c;
     color: white;
 }
 
@@ -106,12 +106,16 @@ nav.navbar {
 }
 
 #association {
-    background-color: #212529;
+    background-color: #4c4d4c;
     color: white;
 }
 
 #association p {
     font-size: 1.1rem;
+}
+
+#association .img-assos {
+    max-width: 400px !important;
 }
 
 footer {
@@ -185,4 +189,8 @@ footer .social i {
 @media (max-width: 767.98px) {}
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    #association .img-assos {
+        max-width: 350px !important;
+    }
+}
