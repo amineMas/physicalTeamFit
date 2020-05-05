@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <!-- Your custom styles (optional) -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>Accueil</title>
     <link rel="icon" href="img/logo.png">
 </head>
@@ -58,13 +52,13 @@
         
         <!-- Portfolio Item Row -->
         <div class="row pb-5">
-            <div class="col-md-8">
-                <img class="mw-100" src="img/crossfit-1963860_1280.jpg" alt="">
+            <div class="col-lg-7">
+                <img class="mw-100 img-coach" src="img/crossfit-1963860_1280.jpg" alt="">
             </div>
         
-            <div class="col-md-4">
+            <div class="col-lg-5">
                 <h3 class="my-3">Description</h3>
-                <p>Ce programme est destiné à ceux qui désirent s'entraîner entre amis ou collègues par groupe de 3 à 10 personnes maximum.</p>
+                <p>Ce programme est destiné à ceux qui désirent s'entraîner entre amis ou collègues par groupe de 3 à 10 personnes maximum. L'avantage du small group c'est que les frais sont partagés entre les participants, c'est l'envie de faire du sport à plusieurs, se défouler dans la convivialité. Un ou deux coachs seront présent à vos côtés pour vous motiver et vous expliquer les exercices de renforcement musculaire ou circuit training.</p>
                 <h3 class="my-3">Prix</h3>
                 <ul>
                     <li>1 seance - 200 €/séance</li>
@@ -74,58 +68,70 @@
     </div>
 
     <div class="container">
-        <h2 class="mb-5">Ce programme vous intéresse ? Contactez-nous via ce formulaire</h2>
-        <form method="POST" action="mail.php" class="pb-5">
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="name">Votre nom <span class="required">*</span></label>
-                    <input type="text" class="form-control" id="name" name="name">
-                </div>
+      <h2 class="mb-5">Ce programme vous intéresse ? Contactez-nous via ce formulaire</h2>
+      <form method="POST" action="mail.php" class="pb-5">
+          <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="email">Email <span class="required">*</span></label>
-                <input type="email" class="form-control" id="email" name="email">
+                  <label for="name">Votre nom <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="name" name="name">
               </div>
+            <div class="form-group col-md-6">
+              <label for="prenom">Prénom <span class="required">*</span></label>
+              <input type="text" class="form-control" id="prenom" name="prenom">
             </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="age">Votre âge</label>
-                <input type="text" class="form-control" id="age">
-              </div>
-              <div class="form-group col-md-6 text-center">
-                <legend class="col-form-label ">Sexe</legend>
-                <div class="form-check form-check-inline col-md-3">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Homme
-                    </label>
-                  </div>
-                  <div class="form-check form-check-inline col-md-3">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Femme
-                    </label>
-                  </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="subject">Sujet</label>
-              <select class="form-control" id="subject" name="subject">
-                  <option>Coaching Solo</option>
-                  <option>Coaching Duo</option>
-                  <option selected>Coaching SmallGroup</option>
-                  <option>Coaching prise de masse</option>
-                  <option>Coaching perte de poids</option>
-                  <option>Coaching visio</option>
-                  <option>Autre</option>
-              </select>
           </div>
-            <div class="form-group">
-                <label for="message">Votre message <span class="required">*</span></label>
-                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-              </div>
-            <button type="submit" class="btn btn-danger">Envoyer votre message</button>
-        </form>
-    </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="num">Numéro de téléphone</label>
+              <input type="text" class="form-control" id="num" name="num">
+            </div>
+        </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="age">Votre âge</label>
+              <input type="text" class="form-control" id="age">
+            </div>
+            <div class="form-group col-md-6 text-md-center">
+              <legend class="col-form-label ">Sexe</legend>
+              <div class="form-check form-check-inline col-md-3">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Homme
+                  </label>
+                </div>
+                <div class="form-check form-check-inline col-md-3">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Femme
+                  </label>
+                </div>
+            </div>
+          </div>
+          <div class="form-group col-md-6 px-0">
+            <label for="subject">Nb de personnes</label>
+            <select class="form-control" id="subject" name="subject">
+              <option>2 personnes</option>
+              <option>3 personnes</option>
+              <option>4 personnes</option>
+              <option>5 personnes</option>
+              <option>6 personnes</option>
+              <option>7 personnes</option>
+              <option>8 personnes</option>
+              <option>9 personnes</option>
+              <option>10 personnes</option>
+            </select>
+        </div>
+          <div class="form-group col-md-6 px-0">
+              <label for="message">Votre message <span class="required">*</span></label>
+              <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+            </div>
+          <button type="submit" class="btn btn-danger">Envoyer votre message</button>
+      </form>
+  </div>
 
         <!-- Footer -->
     <footer class="page-footer font-small pt-4 ">
@@ -214,7 +220,7 @@
                 <img src="img/unnamed.png" alt="" width="120" height="100">
               </li>
               <li class="list-inline-item px-4 mr-lg-5">
-                <img src="img/logo_lass coaching_FINAL.png" alt="" width="120" height="100">
+                <img src="img/logo-lass-2.png" alt="" width="120" height="100">
               </li>
               <li class="list-inline-item px-4 mr-lg-5">
                 <img src="img/logo-curtis.png" alt="" width="120" height="100">
@@ -233,15 +239,11 @@
         
         <button id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
     
-    <!-- jQuery -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript" src="js/popper.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-        <!-- Your custom scripts (optional) -->
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script> -->
         <script src="js/main.js"></script>
         
     </body>

@@ -1,6 +1,6 @@
 window.onload = function(){
     
-    new WOW().init();
+    // new WOW().init();
     var scrollTop = document.getElementById('scrollToTop');
 
     scrollTop.addEventListener("click", function(){

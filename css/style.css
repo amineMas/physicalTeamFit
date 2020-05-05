@@ -32,10 +32,6 @@ nav.navbar {
     padding-right: 20px;
 }
 
-.border-b {
-    border-bottom: 2px solid white;
-}
-
 #navbarResponsive .nav-link:hover {
     font-weight: bold;
 }
@@ -43,6 +39,11 @@ nav.navbar {
  .carousel-item img {
     max-height: 380px;
 }
+
+.img-coach {                 /* sur les pages des programmes seulement */
+    width: 635px;
+    max-height: 420px;
+  }
 
 .title-section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -95,7 +96,7 @@ nav.navbar {
 }
 
 #en-entreprise .bg-image {
-    background-image: url(../img/offer.png);
+    background-image: url(../img/offer.jpg);
     background-size: cover;
     height: 400px;
     color: white;
