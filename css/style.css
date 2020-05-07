@@ -52,7 +52,7 @@ nav.navbar {
 }
 
 #services {
-    background-image: url(../img/hero-1.jpg);
+    background-image: url(../img/rsz_coachs-4-compressor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,8 +96,9 @@ nav.navbar {
 }
 
 #en-entreprise .bg-image {
-    background-image: url(../img/offer.jpg);
+    background-image: url(../img/rsz_en-entreprise.jpg);
     background-size: cover;
+    background-position: center;
     height: 400px;
     color: white;
 }
