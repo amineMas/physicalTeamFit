@@ -52,9 +52,12 @@ nav.navbar {
 }
 
 #services {
-    background-image: url(../img/rsz_coachs-4-compressor.jpg);
+    background-image: url(../img/rsz_coachs-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0;
 }
 
 .error {
