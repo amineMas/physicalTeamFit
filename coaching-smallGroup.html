@@ -94,35 +94,36 @@
               <label for="age">Votre âge</label>
               <input type="text" class="form-control" id="age">
             </div>
-            <div class="form-group col-md-6 text-md-center">
-              <legend class="col-form-label ">Sexe</legend>
-              <div class="form-check form-check-inline col-md-3">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Homme
-                  </label>
-                </div>
-                <div class="form-check form-check-inline col-md-3">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Femme
-                  </label>
-                </div>
-            </div>
+            <div class="form-group col-md-6">
+              <label for="subject">Nb de personnes</label>
+              <select class="form-control" id="subject" name="subject">
+                <option>2 personnes</option>
+                <option>3 personnes</option>
+                <option>4 personnes</option>
+                <option>5 personnes</option>
+                <option>6 personnes</option>
+                <option>7 personnes</option>
+                <option>8 personnes</option>
+                <option>9 personnes</option>
+                <option>10 personnes</option>
+              </select>
           </div>
-          <div class="form-group col-md-6 px-0">
-            <label for="subject">Nb de personnes</label>
-            <select class="form-control" id="subject" name="subject">
-              <option>2 personnes</option>
-              <option>3 personnes</option>
-              <option>4 personnes</option>
-              <option>5 personnes</option>
-              <option>6 personnes</option>
-              <option>7 personnes</option>
-              <option>8 personnes</option>
-              <option>9 personnes</option>
-              <option>10 personnes</option>
-            </select>
+          </div>
+          
+        <div class="form-group col-md-6 px-0">
+          <legend class="col-form-label ">Sexe</legend>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Homme
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Femme
+              </label>
+            </div>
         </div>
           <div class="form-group col-md-6 px-0">
               <label for="message">Votre message <span class="required">*</span></label>
