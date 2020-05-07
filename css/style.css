@@ -7,7 +7,7 @@ body {
 }
 
 nav.navbar {
-    height: 140px;
+    height: 130px;
     background-color: #343a40;
 }
 
@@ -171,13 +171,17 @@ footer .social i {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199px) {
 
+    nav.navbar {
+        height: 110px;
+    }
+
     #navbarResponsive ul li {
         font-size: 1rem;
     }
 
     .navbar-brand img {
-        height: 100px;
-        width: 280px;
+        height: 90px;
+        width: 270px;
     }
 
     /* .carousel-item img {
@@ -188,14 +192,111 @@ footer .social i {
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+
+    nav.navbar {
+        height: 100px;
+    }
+
+    .navbar-brand img {
+    height: 90px;
+    width: 230px;
+    }
+
+    .carousel-item img {
+        max-height: 300px;
+    }
+
+    .h3, h3 {
+        font-size: 1.6rem;
+    }
+
+    #en-entreprise .bg-image {
+        height: 350px;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px)  */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .list-inline-item {
+        display: block;
+    }
+
+    nav.navbar {
+        height: 90px;
+    }
+
+    .carousel-item img {
+        max-height: 275px;
+        min-height: 275px;
+    }
+
+    .navbar-brand img {
+        height: 75px;
+        width: 180px;
+    }
+
+    #en-entreprise p {
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem !important;
+    }
+
+    .h3, h3 {
+        font-size: 1.4rem;
+    }
+
+    .h6, h6 {
+        font-size: 0.9rem;
+    }
+
+    .title-section {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+    nav.navbar {
+        height: 70px;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+        width: 140px;
+    }
+
+    .carousel-item img {
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    .title-section {
+        font-size: 1.6rem;
+    }
+
+    p, li{
+        font-size: 0.9rem !important;
+    }
+
+    .h3, h3 {
+        font-size: 1.2rem;
+    }
+
+    .h6, h6 {
+        font-size: 0.8rem;
+    }
+
     #association .img-assos {
         max-width: 350px !important;
+    }
+
+    .list-inline-item img {
+        width: 100px;
+        height: 85px;
     }
 }
