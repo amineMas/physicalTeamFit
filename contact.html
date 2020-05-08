@@ -44,45 +44,24 @@
           </ul>
       </div>
     </nav>
-
-    <div class="container mt-5">
-
-        <!-- Portfolio Item Heading -->
-        <h1 class="my-5">Coaching Small Group</h1>
-        
-        <!-- Portfolio Item Row -->
-        <div class="row pb-5">
-            <div class="col-lg-7">
-                <img class="mw-100 img-coach" src="img/crossfit-1963860_1280.jpg" alt="">
-            </div>
-        
-            <div class="col-lg-5">
-                <h3>Description</h3>
-                <p>Les séances en small group en salle ,extérieur, ou en entreprise, entre amis ou collègues. L'avantage du small group c'est que les frais sont partagés entre les participants, c'est l'envie de faire du sport à plusieurs, se défouler dans la convivialité. Un ou deux coachs seront présent à vos côtés pour vous motiver et vous expliquer les exercices de renforcement musculaire ou circuit training. Le coach vous corrigera sur vos gestes et postures pour une bonne exécution des mouvements tout cela dans la joie et bonne humeur.</p>
-                <ul>
-                    <li>1 seance - 200 €/séance</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
+    
     <div class="container">
-      <h2 class="mb-5">Ce programme vous intéresse ? Contactez-nous via ce formulaire</h2>
+      <h2 class="my-5">Contactez-nous via ce formulaire, on vous répondra le plus vite possible</h2>
       <form method="POST" action="mail.php" class="pb-5">
           <div class="form-row">
               <div class="form-group col-md-6">
                   <label for="name">Votre nom <span class="required">*</span></label>
-                  <input type="text" class="form-control" id="name" name="name">
+                  <input type="text" class="form-control" id="name" name="name" pattern="[-A-Za-z]{2,50}" title="Seulement lettres et tiret autorisées, 2 à 50 caractères" required>
               </div>
             <div class="form-group col-md-6">
               <label for="prenom">Prénom <span class="required">*</span></label>
-              <input type="text" class="form-control" id="prenom" name="prenom">
+              <input type="text" class="form-control" id="prenom" name="prenom" pattern="[A-Za-z]{2,50}" title="Seulement lettres et tiret autorisées, 2 à 50 caractères" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="email">Email <span class="required">*</span></label>
-              <input type="email" class="form-control" id="email" name="email">
+              <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="form-group col-md-6">
               <label for="num">Numéro de téléphone</label>
@@ -94,45 +73,38 @@
               <label for="age">Votre âge</label>
               <input type="text" class="form-control" id="age">
             </div>
-            <div class="form-group col-md-6">
-              <label for="subject">Nb de personnes</label>
+            <div class="form-group col-md-6 px-0">
+              <label for="subject">Sujet</label>
               <select class="form-control" id="subject" name="subject">
-                <option>2 personnes</option>
-                <option>3 personnes</option>
-                <option>4 personnes</option>
-                <option>5 personnes</option>
-                <option>6 personnes</option>
-                <option>7 personnes</option>
-                <option>8 personnes</option>
-                <option>9 personnes</option>
-                <option>10 personnes</option>
+                <option>Coachings</option>
+                <option>Visio</option>
+                <option>Formule entreprise</option>
+                <option>Autre</option>
               </select>
-          </div>
-          </div>
-          
-        <div class="form-group col-md-6 px-0">
-          <legend class="col-form-label ">Sexe <span class="required">*</span></legend>
-          <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-              <label class="form-check-label" for="gridRadios1">
-                Homme
-              </label>
             </div>
+          </div>
+          <div class="form-group col-md-6 px-0">
+            <legend class="col-form-label ">Sexe <span class="required">*</span></legend>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-              <label class="form-check-label" for="gridRadios2">
-                Femme
-              </label>
-            </div>
-        </div>
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Homme
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Femme
+                </label>
+              </div>
+          </div>
           <div class="form-group col-md-6 px-0">
               <label for="message">Votre message <span class="required">*</span></label>
-              <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="8" required></textarea>
             </div>
           <button type="submit" class="btn btn-danger">Envoyer votre message</button>
       </form>
   </div>
-
         <!-- Footer -->
     <footer class="page-footer font-small pt-4 ">
 

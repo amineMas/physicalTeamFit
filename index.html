@@ -7,7 +7,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet"> -->
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
     <title>Accueil</title>
@@ -146,7 +146,7 @@
                             <img class="card-img-top" src="img/crossfit-1963860_1280.jpg" alt="image-programme" height="280">
                             <div class="card-body">
                                 
-                                <a  class="btn btn-danger" href="coaching-smallGroup.html">Voir descriptif</a>
+                                <a class="btn btn-danger" href="coaching-smallGroup.html">Voir descriptif</a>
                             </div>
                         </div>
                     </div>
@@ -224,56 +224,10 @@
                     </div>
                     <div class="col text-center">
                         <!-- Button trigger modal form -->
-                        <button type="button" class="btn btn-danger mx-auto" data-toggle="modal" data-target="#modalContactForm">
+                        <a class="btn btn-danger mx-auto" href="contact.html">
                             Contactez-nous
-                        </button>
+                        </a>
                     </div>
-                    
-  
-                <!-- Modal -->
-                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h4 class="modal-title w-100 font-weight-bold" style="color:#757575;">Contactez-nous</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <form method="POST" action="mail.php"  class="modal-body mx-3">
-                            <div class="md-form mb-5">
-                            <i class="fas fa-user prefix grey-text"></i>
-                            <input type="text" id="form34" class="form-control validate" name="name" pattern="[A-Za-z]{2,25}"> 
-                            <label data-error="wrong" data-success="right" for="form34">Votre nom <span class="error">*</span></label>
-                            </div>
-
-                            <div class="md-form mb-5">
-                            <i class="fas fa-envelope prefix grey-text"></i>
-                            <input type="email" id="form29" class="form-control validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email">
-                            <label data-error="wrong" data-success="right" for="form29">Votre email<span class="error">*</span></label>
-                            </div>
-
-                            <div class="md-form mb-5">
-                            <i class="fas fa-tag prefix grey-text"></i>
-                            <input type="text" id="form32" class="form-control validate" pattern=[A-Za-z0-9\s]{5,60} name="subject">
-                            <label data-error="wrong" data-success="right" for="form32">Sujet</label>
-                            </div>
-
-                            <div class="md-form">
-                            <i class="fas fa-pencil prefix grey-text"></i>
-                            <textarea type="text" id="form8" class="md-textarea form-control" rows="4" name="message"></textarea>
-                            <label data-error="wrong" data-success="right" for="form8">Votre message <span class="error">*</span></label>
-                            </div>
-
-                            
-                            <div class="modal-footer d-flex justify-content-center">
-                                <input type="submit" class="btn btn-primary" name="">Envoyer votre message <i class="fas fa-paper-plane-o ml-1"></i></input>
-                            </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- FIN    Modal -->
                 </div>
             </div>
         </div>
@@ -292,13 +246,8 @@
             
                 <div class="col-12 my-3">
                     <p>
-                    La particularité de notre association est d'effectuer et de promouvoir le sport aux personnes à mobilité réduite, ainsi que la prise en charge par le sport de certaines pathologies:La particularité de notre association est de promouvoir l'activité physique aux personnes à mobilité réduite la prise en charge par le sport de certaines pathologie comme les maladie de longue durée (ALD):
+                    La particularité de notre association est de promouvoir l'activité physique aux personnes à mobilité réduite la prise en charge par le sport de certaines pathologie comme les maladie de longue durée (ALD), la réinsertion des jeunes par le sport et aussi le sport thérapie.
                     </p>
-                    <ul>
-                        <li>sport santé: une activité physique adapter, améliore l'état de santé générale</li>
-                        <li>sport bien-être: maintien de la forme physique retarde, retarde la dépendance</li>
-                        <li>Sport sur ordonnance: collaboration avec plusieurs spécialistes du milieu médical (généraliste, kinésithérapeute,ostéopathe, psychiatre)</li>
-                    </ul>
                 </div>
                 
                 <div class="col-auto">
@@ -423,7 +372,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script> -->
     <script src="js/main.js"></script>
     
 </body>

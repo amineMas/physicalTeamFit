@@ -1,7 +1,6 @@
 <?php
     // define variables and set to empty values
     //$err = $nameErr = $emailErr = "";
-
     function validation($data) {
         $data = trim($data); // supprime les espaces à la fin
         $data = stripslashes($data);
@@ -15,7 +14,7 @@
         {
             $name = validation($_POST["name"]);
             // check if name only contains letters and whitespaces
-            preg_match('/^[a-zA-Z ]*$/', $name);
+            preg_match('/^[-a-zA-Z ]*$/', $name);
         }
 
         if(!empty($_POST["email"]))
