@@ -11,6 +11,10 @@ nav.navbar {
     background-color: #343a40;
 }
 
+.title-slider {
+    color: black;
+}
+
 #navbarResponsive ul li {
     font-size: 1.2rem;
 }
