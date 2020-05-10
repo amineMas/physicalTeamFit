@@ -16,7 +16,7 @@
             // check if name only contains letters and whitespaces
             preg_match('/^[-a-zA-Z ]*$/', $name);
         } else {
-            echo 'champ name requis';
+            echo 'Le nom est requis';
         }
 
         if(!empty($_POST["prenom"]))
@@ -25,7 +25,7 @@
             // check if name only contains letters and whitespaces
             preg_match('/^[-a-zA-Z ]*$/', $prenom);
         } else {
-            echo 'champ prenom requis';
+            echo 'Le prénom est requis';
         }
 
         if(!empty($_POST["num"]))
