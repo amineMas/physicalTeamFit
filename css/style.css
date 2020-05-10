@@ -11,10 +11,6 @@ nav.navbar {
     background-color: #343a40;
 }
 
-.title-slider {
-    font-weight: 800;
-}
-
 #navbarResponsive ul li {
     font-size: 1.2rem;
 }
@@ -61,10 +57,9 @@ nav.navbar {
   }
 
 .title-section {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Black Ops One', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-size: 2rem;
-    font-weight: bolder;
 }
 
 #services {
