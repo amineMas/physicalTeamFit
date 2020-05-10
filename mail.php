@@ -15,12 +15,30 @@
             $name = validation($_POST["name"]);
             // check if name only contains letters and whitespaces
             preg_match('/^[-a-zA-Z ]*$/', $name);
+        } else {
+            echo 'champ name requis';
+        }
+
+        if(!empty($_POST["prenom"]))
+        {
+            $prenom = validation($_POST["prenom"]);
+            // check if name only contains letters and whitespaces
+            preg_match('/^[-a-zA-Z ]*$/', $prenom);
+        } else {
+            echo 'champ prenom requis';
+        }
+
+        if(!empty($_POST["num"]))
+        {
+            $num = filter_var($_POST["num"], FILTER_SANITIZE_NUMBER_INT);
         }
 
         if(!empty($_POST["email"]))
         {
             $email = validation($_POST["email"]);
             $email = filter_var($email, FILTER_VALIDATE_EMAIL);
+        } else {
+            echo 'champ mail requis';
         }
 
         if(!empty($_POST["subject"]))
@@ -34,8 +52,10 @@
             $message = wordwrap($message, 70, PHP_EOL);
         }
 
-        $to_email = "aminemastouri@gmail.com, physicalteamfit@gmail.com";
+        $to_email = "aminemastouri@gmail.com";
         $headers = array(
+            'MIME-Version' => 1.0,
+            'Content-type' => "text/html; charset=utf-8",
             'From' => $email,
             'Reply-To' => $email,
             'X-Mailer' => 'PHP/' . phpversion()

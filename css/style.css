@@ -15,6 +15,10 @@ nav.navbar {
     font-size: 1.2rem;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
 .required {
     color: red;
 }
@@ -36,8 +40,15 @@ nav.navbar {
     font-weight: bold;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
  .carousel-item img {
-    max-height: 380px;
+    max-height: 550px;
 }
 
 .img-coach {                 /* sur les pages des programmes seulement */
@@ -99,7 +110,7 @@ nav.navbar {
 }
 
 #en-entreprise .bg-image {
-    background-image: url(../img/rsz_en-entreprise.jpg);
+    background-image: url(../img/rsz_photo-entreprise.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -204,7 +215,7 @@ footer .social i {
     }
 
     .carousel-item img {
-        max-height: 300px;
+        max-height: 400px;
     }
 
     .h3, h3 {
