@@ -1,7 +1,6 @@
-small group minimum 3 max 10
-team-physicaltraining
- 
-mentions légales : voir si on peut mettre deux numéro de siret
+
+
+
 
 
 
